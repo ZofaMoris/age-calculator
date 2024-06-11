@@ -48,4 +48,3 @@ int main()
      }
     return 0;
 }
-//george ibn ar3a
