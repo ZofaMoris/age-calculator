@@ -17,6 +17,35 @@ int main()
     cout << "\nage in years: " << age / 365.25;
     cout << "\nage in days: " << age; 
     cout << "\nage in hours: " << age * 24;
+    cout << "\nday of birth is ";
+    if (age % 7 == 0)
+    {
+     cout << "monday";
+    }
+      else if (age % 7 == 1)
+     {
+      cout << "tuesday";
+     }
+     else if (age % 7 == 2)
+     {
+        cout << "wednesday";
+     }
+     else if (age % 7 == 3)
+     {
+        cout << "thursday";
+     }
+     else if (age % 7 == 4)
+     {
+       cout << "friday"; 
+     }
+     else if (age % 7 == 5)
+     {
+        cout << "saterday";
+     }
+     else 
+     {
+        cout << "sunday";
+     }
     return 0;
 }
-//george 3abeet
+//george ibn ar3a
